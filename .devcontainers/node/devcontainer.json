@@ -6,7 +6,8 @@
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers-contrib/features/npm-package:1": {
       "package": "zx"
-    }
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "customizations": {
     "vscode": {
