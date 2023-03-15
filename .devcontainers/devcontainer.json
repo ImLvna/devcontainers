@@ -1,0 +1,21 @@
+{
+  "name": "Default",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "benjaminbenais.copilot-theme",
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+        "eamodio.gitlens",
+        "vscode-icons-team.vscode-icons",
+      ],
+      "settings": {
+        "workbench.colorTheme": "Copilot Theme",
+        "workbench.iconTheme": "vscode-icons"
+      }
+    }
+  }
+}
