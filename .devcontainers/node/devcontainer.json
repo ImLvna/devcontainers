@@ -1,0 +1,31 @@
+{
+  "name": "Node Env",
+  "forwardPorts": [80],
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash",
+  "features": {
+    "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers-contrib/features/npm-package:1": {
+      "package": "zx"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "benjaminbenais.copilot-theme",
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+        "eamodio.gitlens",
+        "vscode-icons-team.vscode-icons",
+        "eg2.vscode-npm-script",
+        "gamunu.vscode-yarn",
+        "Pandy.bun",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Copilot Theme",
+        "workbench.iconTheme": "vscode-icons"
+      }
+    }
+  }
+}
